@@ -82,7 +82,6 @@
     display: grid;
     gap: 5px;
   }
-  
 
   .service {
     width: 95%;
@@ -431,5 +430,162 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
+  }
+
+  .index {
+    height: 100vh;
+    background-image: url(../image/1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #welcome {
+    width: 80%;
+    padding: 20px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #f1faee;
+    border: 2px dashed #1d3557;
+    align-items: center;
+  }
+  #message {
+    font-size: 30px;
+    color: #1d3557;
+    display: flex;
+    justify-content: center;
+  }
+  #stay {
+    background-color: #1d3557;
+    color: #f1faee;
+    border: 0;
+    width: 300px;
+    padding: 20px;
+    border-radius: 50px;
+  }
+  #login {
+    background-color: transparent;
+    height: 80vh;
+    width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+  }
+  #login-2 {
+    display: none;
+  }
+  #logintext {
+    font-size: 30px;
+    color: #1d3557;
+    display: flex;
+    justify-content: center;
+  }
+  #form {
+    height: 60vh;
+    width: 100%;
+    padding: 0px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 3px dashed #1d3557;
+  }
+  #redirect {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+  }
+  #checkbox {
+    height: 5vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  #checkbox-2 {
+    height: 5vh;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  #email {
+    border: 2px solid whitesmoke;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #f1faee;
+  }
+  #email-2 {
+    margin-left: 20px;
+  }
+  #password {
+    border: 2px solid whitesmoke;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #f1faee;
+  }
+  #icon {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #login-3 {
+    border: 0;
+    background-color: #1d3557;
+    width: 88%;
+    padding: 8px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  #login-4 {
+    display: none;
+  }
+  #login-1 {
+    background-color: transparent;
+    height: 80vh;
+    width: 100%;
+    margin-right: 0px;
+    padding: 20px;
+  }
+  #form-2 {
+    height: 60vh;
+    width: 100%;
+    padding: 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #f1faee;
+    border: 3px dashed #1d3557;
+  }
+  .email {
+    border: 2px solid whitesmoke;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #f1faee;
+    margin-left: 3px;
+  }
+  .password {
+    border: 2px solid whitesmoke;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #f1faee;
+    margin-left: 3px;
+  }
+  .confirm {
+    font-size: 12px;
   }
 }

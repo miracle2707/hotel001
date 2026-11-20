@@ -121,10 +121,10 @@ button {
   border: 2px solid #1d3557;
 }
 #service-home {
-    height: 100vh;
-    background-image: url(../image/1.jpg);
-    background-size: cover;
-  }
+  height: 100vh;
+  background-image: url(../image/1.jpg);
+  background-size: cover;
+}
 
 .ourservices {
   height: 11vh;
@@ -320,10 +320,10 @@ button {
   padding: 30px;
 }
 #about-home {
-    height: 100vh;
-    background-image: url(../image/1.jpg);
-    background-size: cover;
-  }
+  height: 100vh;
+  background-image: url(../image/1.jpg);
+  background-size: cover;
+}
 #about {
   font-size: 50px;
   color: #f1faee;
@@ -431,15 +431,15 @@ button {
 hr {
   color: #f1faee;
 }
-.index{
+.index {
   height: 100vh;
-  background-image: url(../image/100.jpg);
+  background-image: url(../image/1.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#welcome{
+#welcome {
   width: 70%;
   padding: 30px;
   height: 70vh;
@@ -449,13 +449,13 @@ hr {
   color: #f1faee;
   border: 2px dashed #1d3557;
 }
-#message{
+#message {
   font-size: 50px;
   color: #1d3557;
   display: flex;
   justify-content: center;
 }
-#stay{
+#stay {
   background-color: #1d3557;
   color: #f1faee;
   border: 0;
@@ -463,29 +463,140 @@ hr {
   padding: 20px;
   border-radius: 50px;
 }
-#stay:hover{
+#stay:hover {
   background-color: #f1faee;
   color: #1d3557;
   border: 2px solid #1d3557;
 }
-#login{
+#login {
+  background-color: white;
   height: 80vh;
-  background-color: aqua;
   width: 100%;
   margin-left: 200px;
   padding: 50px;
 }
-#form{
+#login-1 {
+  background-color: white;
   height: 80vh;
-  background-color: red;
-  width: 100%;
-  padding-left: 20px;
-
-}
-#login-2{
-  height: 80vh;
-  background-color: blue;
   width: 100%;
   margin-right: 200px;
   padding: 50px;
+}
+#form {
+  height: 80vh;
+  width: 100%;
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: black;
+}
+#form-2 {
+  height: 80vh;
+  width: 100%;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: black;
+}
+#login-2 {
+  height: 80vh;
+  background-color: whitesmoke;
+  width: 100%;
+  margin-right: 200px;
+  padding: 50px;
+}
+#login-4 {
+  height: 80vh;
+  background-color: whitesmoke;
+  width: 100%;
+  margin-left: 200px;
+  padding: 50px;
+}
+#email {
+  border: 2px solid whitesmoke;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.email {
+  border: 2px solid whitesmoke;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.password {
+  border: 2px solid whitesmoke;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+}
+#password {
+  border: 2px solid whitesmoke;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.comfirm {
+  border: 2px solid whitesmoke;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+}
+#checkbox {
+  height: 5vh;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+#checkbox-2 {
+  height: 5vh;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+#login-3 {
+  border: 0;
+  background-color: #1d3557;
+  width: 85%;
+  padding: 8px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+#image-0 {
+  width: 100%;
+  height: 80vh;
+  border-radius: 10px;
+}
+#fa {
+  padding: 10px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+#fa:hover {
+  padding: 12px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+#logintext {
+  font-size: 30px;
+  color: #1d3557;
+  display: flex;
+  justify-content: center;
+}
+#redirect {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+}
+#icon {
+  width: 85%;
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
 }
