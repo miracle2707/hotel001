@@ -441,7 +441,21 @@
     justify-content: center;
   }
   #topbutton{
-    display: none;
+    height: 6vh;
+    position: absolute;
+    width: 40%;
+    left: 440px;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #stay-2 {
+    background-color: #1d3557;
+    color: #f1faee;
+    border: 0;
+    width: 150px;
+    padding: 20px;
+    border-radius: 50px;
   }
    #sideimage{
    display: none;

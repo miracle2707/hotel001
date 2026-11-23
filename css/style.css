@@ -477,6 +477,14 @@ hr {
   padding: 20px;
   border-radius: 50px;
 }
+#stay-2 {
+  background-color: #1d3557;
+  color: #f1faee;
+  border: 0;
+  width: 300px;
+  padding: 20px;
+  border-radius: 50px;
+}
 #stay:hover {
   background-color: #f1faee;
   color: #1d3557;
