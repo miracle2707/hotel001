@@ -440,6 +440,15 @@
     align-items: center;
     justify-content: center;
   }
+  #topbutton{
+    display: none;
+  }
+   #sideimage{
+   display: none;
+  }
+   #sideimage-2{
+   display: none;
+  }
   #welcome {
     width: 80%;
     padding: 20px;

@@ -429,6 +429,15 @@
     align-items: center;
     justify-content: center;
   }
+   #sideimage{
+   display: none;
+  }
+   #sideimage-2{
+   display: none;
+  }
+  #topbutton{
+    display: none;
+  }
   #welcome {
     width: 80%;
     padding: 20px;

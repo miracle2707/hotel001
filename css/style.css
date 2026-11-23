@@ -439,6 +439,20 @@ hr {
   align-items: center;
   justify-content: center;
 }
+#topbutton{
+    height: 8vh;
+    position: absolute;
+    width: 40%;
+    left: 870px;
+    top: 10px;
+  }
+  #sideimage{
+    position: absolute;
+  }
+  #sideimage-2{
+    position: absolute;
+    right: 250px;
+  }
 #welcome {
   width: 70%;
   padding: 30px;
